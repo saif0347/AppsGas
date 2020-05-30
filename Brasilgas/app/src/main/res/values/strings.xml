@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Pediu Chegou Gas</string>
+    <string name="crash_toast_text">Send crash report to developer</string>
+</resources>

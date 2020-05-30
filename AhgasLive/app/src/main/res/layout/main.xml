@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent"
+    tools:context="com.app.ahgas_fdb3160.MainActivity">
+    <ImageView
+        android:layout_centerInParent="true"
+        android:layout_width="250dp"
+        android:alpha="0.1"
+        android:layout_height="250dp"
+        android:src="@drawable/vessel" />
+    <RelativeLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:gravity="center"
+            android:background="@color/colorPrimary"
+            android:layout_width="match_parent"
+            android:layout_height="100dp">
+            <ImageView
+                android:layout_width="160dp"
+                android:layout_height="100dp"
+                android:src="@drawable/logo" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginStart="50dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginEnd="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_centerInParent="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+            <Button
+                android:id="@+id/btn_select"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Connect" />
+            <TextView
+                android:gravity="center"
+                android:id="@+id/data"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Data" />
+        </LinearLayout>
+    </RelativeLayout>
+    <ProgressBar
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/progressBar"
+        android:layout_centerInParent="true"/>
+    <Button
+        android:textSize="16sp"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/repeat"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@color/button"
+        android:text="Repetir Pedido"
+        android:textColor="@color/white"/>
+    <ImageView
+        android:visibility="gone"
+        android:id="@+id/loader"
+        android:layout_centerInParent="true"
+        android:layout_width="100dp"
+        android:layout_height="100dp" />
+</RelativeLayout>

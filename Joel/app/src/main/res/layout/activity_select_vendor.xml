@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent"
+    tools:context="com.app.ahgas_f6fc61c.MainActivity">
+    <ImageView
+        android:layout_centerInParent="true"
+        android:layout_width="250dp"
+        android:alpha="0.4"
+        android:layout_height="250dp"
+        android:src="@drawable/vessel" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:gravity="center"
+            android:background="@color/colorPrimary"
+            android:layout_width="match_parent"
+            android:layout_height="100dp">
+            <ImageView
+                android:layout_width="160dp"
+                android:layout_height="100dp"
+                android:src="@drawable/logo" />
+        </LinearLayout>
+        <ListView
+            android:layout_marginTop="15dp"
+            android:id="@+id/listView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="@null">
+        </ListView>
+    </LinearLayout>
+    <ImageView
+        android:visibility="gone"
+        android:id="@+id/loader"
+        android:layout_centerInParent="true"
+        android:layout_width="100dp"
+        android:layout_height="100dp" />
+    <TextView
+        android:visibility="gone"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginRight="30dp"
+        android:gravity="center"
+        android:id="@+id/noresult"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nenhum revendedor disponivel para este endereco :(. Por favor, selecione outro endereco de entrega." />
+</RelativeLayout>

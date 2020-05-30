@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Jacare Gas</string>
+    <string name="crash_toast_text">Send crash report to developer</string>
+</resources>

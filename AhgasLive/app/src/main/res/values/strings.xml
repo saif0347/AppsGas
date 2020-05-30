@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Ahgas</string>
+
+    <string name="scanner_action_scan">Scan</string>
+    <string name="scanner_title">Select device:</string>
+    <string name="scanner_action_cancel">Cancel</string>
+    <string name="scanner_empty">No device</string>
+    <string name="not_available">n/a</string>
+
+    <string name="start_scan">Scan</string>
+    <string name="disconnect">Disconnect</string>
+    <string name="not_support_ble">Phone does not support ble！</string>
+
+    <string name="sync_user">Sync User</string>
+    <string name="light">Light</string>
+</resources>
